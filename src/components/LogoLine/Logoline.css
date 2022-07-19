@@ -1,0 +1,45 @@
+.LogoLine{
+    padding:48px 0;
+    
+    width:100%;
+}
+.headingLine{
+    font-Weight:600;
+    font-size:32px;
+    Line-height:40px;
+    margin-bottom:24px;
+
+}
+.logoOfCompany{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+  
+   
+}
+
+.img{
+    background:#5555FF;
+    fill:#5555FF; 
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logoOfCompany{
+     width:100%;
+     flex-direction: column;
+     margin:auto;
+     
+     align-items: center;
+     }
+    img{
+    padding:2%;
+    }
+    .comLofoImg{
+        width:50vw;
+        padding-top:5%;
+    }
+
+    .headingLine{
+        text-align: center;
+    }
+}

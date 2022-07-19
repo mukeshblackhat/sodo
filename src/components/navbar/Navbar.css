@@ -1,0 +1,86 @@
+.navbar{
+    height:88px;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    padding:16px 0;
+}
+
+.leftNavPart{
+    display:flex;
+   align-items: center;
+    width:443.33px;
+    gap:32px;
+    padding:16px 0;
+ 
+}
+.nameLogo{
+    display:flex;
+    align-items: center;
+    width: 117.33px;
+    gap: 8px;
+
+   
+}
+.appName{
+    font-weight: 600;
+}
+
+.rightNavPart{
+    display:flex;
+    align-items: center;
+
+}
+.logIn{
+    padding:16px 32px;
+    color:#5555FF;
+}
+.primaryAction{
+    padding:16px 32px;
+    color:#5555FF;
+  
+}
+
+.logIn:hover{
+    background: #5555FF;
+    color:white;
+    border-radius:8px;
+}
+.primaryAction:hover{
+    background: #5555FF;
+    color:white;
+    border-radius:8px;
+}
+.hiddenHemberger{
+    display:none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar{
+        height:48px;
+        padding:8px 0;
+    }
+    .nameLogo{
+        width:26px;
+    }
+   .mobileNav{
+    display:none;
+   }
+   .hiddenHemberger{
+    display:contents;
+    height:100%;
+    display:flex;
+    padding:8px ;
+    padding:16px 0;
+    flex-direction: column;
+   }
+   
+   .line{
+    width:10px;
+    height:2px;
+    background:black;
+    margin:1px;
+  }
+}
+
